@@ -20,3 +20,17 @@ footer{background:#00132e;color:#fff}.footer-main{padding:60px 0 48px;display:gr
 
 /* Secondary pages */
 .policy-page{padding-top:65px;padding-bottom:100px;max-width:850px}.policy-page h1{font:800 42px var(--display);color:var(--navy);margin-top:35px}.policy-page p{font-size:14px;color:#64748b;line-height:1.9}.result-body{min-height:100vh;background:linear-gradient(135deg,#001b42,#003b7d);display:grid;place-items:center;padding:25px}.result-card{background:white;max-width:480px;width:100%;padding:42px;border-radius:9px;text-align:center;box-shadow:0 25px 80px #00132e66}.result-card .brand{justify-content:center}.result-icon{width:62px;height:62px;margin:35px auto 15px;border-radius:50%;display:grid;place-items:center;background:#e5f5ff;color:#087bff;font-size:28px;font-weight:800}.result-card h1{font:800 26px var(--display);color:var(--navy)}.result-card>p{font-size:12px;color:#718096;line-height:1.8}.result-ref{font-weight:800;color:#087bff!important}.result-help a{color:#087bff;font-weight:800}.result-card .btn{margin-top:15px}
+
+/* OPay-only manual payment section */
+.opay-layout{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:start;max-width:1000px;margin:0 auto}
+.opay-card{background:#fff;border:1px solid #e2eaf2;border-radius:8px;padding:30px;box-shadow:0 20px 55px #002b6212}
+.opay-card-head{display:flex;align-items:center;gap:12px;padding-bottom:22px;border-bottom:1px solid #e7edf3}
+.opay-logo{width:42px;height:42px;border-radius:12px;background:#00b875;color:#fff;display:grid;place-items:center;font:800 25px var(--display)}
+.opay-card-head strong,.opay-card-head small{display:block}.opay-card-head strong{font:800 14px var(--display);color:var(--navy)}.opay-card-head small{font-size:10px;color:#8794a5}
+.manual-badge{margin-left:auto;background:#e8f8f1;color:#13875e;font-size:8px;font-weight:800;letter-spacing:.8px;padding:7px 8px;border-radius:3px}
+.opay-amount-label{font-size:9px;letter-spacing:1.5px;font-weight:800;color:#8a98aa;margin-top:25px}.opay-amount{font:800 43px var(--display);letter-spacing:-2px;color:var(--navy);margin-bottom:20px}.opay-amount small{font:700 10px var(--font);letter-spacing:0;color:#8290a2}
+.opay-detail{display:flex;justify-content:space-between;gap:18px;padding:14px 0;border-top:1px solid #edf1f5;font-size:11px}.opay-detail span{color:#8290a2}.opay-detail strong{color:var(--navy);text-align:right}.account-number{font-size:17px;letter-spacing:1px}
+.proof-button{margin-top:20px;background:#0aa66b;box-shadow:0 10px 25px #0aa66b25}.opay-footnote{font-size:9px;line-height:1.8;color:#8a98aa;text-align:center;margin:14px 0 0}
+.opay-instructions{padding:10px 0}.opay-instructions h3{font:800 25px var(--display);color:var(--navy);margin:12px 0 25px}.instruction{display:flex;gap:16px;margin:0 0 24px}.instruction>span{width:34px;height:34px;flex:0 0 34px;display:grid;place-items:center;border-radius:50%;background:#eaf5ff;color:#087bff;font-size:10px;font-weight:800}.instruction strong{font:800 13px var(--display);color:var(--navy)}.instruction p{font-size:11px;line-height:1.8;color:#718096;margin:5px 0 0}
+.payment-safety{display:flex;gap:12px;background:#f2f7fc;padding:15px;border-left:3px solid #087bff;margin-top:10px}.payment-safety>span{color:#087bff;font-size:19px}.payment-safety p{font-size:10px;line-height:1.8;color:#718096;margin:0}.payment-safety strong{color:var(--navy)}
+@media(max-width:760px){.opay-layout{grid-template-columns:1fr;gap:25px}.opay-card{padding:22px}.opay-instructions{padding:10px 2px}}

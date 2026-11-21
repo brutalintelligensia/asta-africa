@@ -126,42 +126,32 @@
           <div class="price">₦5,000 <small>NGN / participant</small></div>
           <div class="price-rule"></div>
           <ul class="price-includes"><li><span>✓</span> Participation in the 2-hour online boot camp</li><li><span>✓</span> Access to the confirmed learning session</li><li><span>✓</span> Registration confirmation after verified payment</li></ul>
-          <a href="#checkout" class="btn btn-full">Buy Now — Secure Your Place <span>↗</span></a>
+          <a href="#opay-payment" class="btn btn-full">Buy Now — Secure Your Place <span>↗</span></a>
           <p class="price-foot">Payment is not complete until it has been verified.</p>
         </div>
       </div>
     </section>
 
-    <section class="checkout-section section" id="checkout">
+    <section class="checkout-section section" id="opay-payment">
       <div class="container">
-        <div class="checkout-heading reveal"><div class="eyebrow dark-eyebrow">07 / COMPLETE YOUR ENROLMENT</div><h2>One step closer to <span>what's next.</span></h2><p>Enter your details, then choose secure online checkout or manual bank transfer.</p></div>
-        <div class="checkout-grid">
-          <form id="registration-form" class="form-card reveal">
-            <div class="form-step"><span>01</span><div><strong>Participant information</strong><small>Tell us who is attending.</small></div></div>
-            <div class="form-fields">
-              <label>Full name<input name="fullName" autocomplete="name" required maxlength="120" placeholder="Your full name"></label>
-              <label>Email address<input name="email" type="email" autocomplete="email" required maxlength="160" placeholder="you@example.com"></label>
-              <label>Phone number<input name="phone" type="tel" autocomplete="tel" required maxlength="30" placeholder="+234..."></label>
-              <label>Country<input name="country" required maxlength="80" placeholder="Country of residence"></label>
-              <label>Current occupation<select name="occupation" required><option value="">Select an option</option><option>Student</option><option>Graduate</option><option>Employed</option><option>Self-employed</option><option>Other</option></select></label>
-              <label>Educational background<input name="education" required maxlength="160" placeholder="e.g. B.Eng. Mechanical Engineering"></label>
-            </div>
-            <div class="form-step payment-step"><span>02</span><div><strong>Choose payment method</strong><small>Registration fee: ₦5,000</small></div></div>
-            <div class="payment-choice">
-              <label class="radio-card selected"><input type="radio" name="paymentMethod" value="paystack" checked><span class="radio-dot"></span><span><strong>Pay online</strong><small>Secure checkout via Paystack</small></span><b>↗</b></label>
-              <label class="radio-card"><input type="radio" name="paymentMethod" value="transfer"><span class="radio-dot"></span><span><strong>Bank transfer</strong><small>Transfer to the OPay account and submit proof</small></span><b>₦</b></label>
-            </div>
-            <button class="btn btn-full form-submit" type="submit" id="checkout-submit">Continue to secure payment <span>→</span></button>
-            <p class="form-legal">By continuing, you agree to the programme's <a href="#footer">terms and policies</a>. Your details are used to process this registration.</p>
-            <div class="form-message" id="form-message" role="status" aria-live="polite"></div>
-          </form>
-          <aside class="order-card reveal">
-            <div class="order-heading"><span>YOUR ORDER</span><span class="order-lock">◈ SECURE</span></div>
-            <div class="order-product"><div class="order-art">A<span>/</span></div><div><strong>ASTA Africa Technical Boot Camp</strong><small>Online · December 25, 2026</small></div></div>
-            <div class="order-row"><span>Original price</span><del>₦15,000</del></div><div class="order-row"><span>Registration price</span><strong>₦5,000</strong></div><div class="order-row total"><span>Total due</span><strong>₦5,000</strong></div>
-            <div class="transfer-info" id="transfer-info" hidden><h3>Manual OPay transfer</h3><p>Transfer exactly <strong>₦5,000</strong> to the account below. Your registration remains pending until the organiser verifies the transfer.</p><div><small>Bank</small><strong>OPay</strong></div><div><small>Account name</small><strong>Ruth Okwuchukwu Maduagwu</strong></div><div><small>Account number</small><strong>7056073043</strong></div><a class="btn btn-outline btn-full" href="https://wa.me/2347056073043?text=Hello%2C%20I%20have%20made%20payment%20for%20ASTA%20Africa%20Technical%20Boot%20Camp.%20Please%20find%20my%20proof%20of%20payment." target="_blank" rel="noopener">Send payment proof on WhatsApp ↗</a><small class="manual-warning">Do not send card PINs, passwords, or OTPs.</small></div>
-            <div class="order-assurance"><span>✓</span> Payment confirmation is issued only after verification.</div>
-          </aside>
+        <div class="checkout-heading reveal"><div class="eyebrow dark-eyebrow">07 / MANUAL BANK TRANSFER</div><h2>Complete your payment via <span>OPay.</span></h2><p>Transfer the registration fee using the account details below, then send your proof of payment to the ASTA Africa registration team on WhatsApp.</p></div>
+        <div class="opay-layout">
+          <div class="opay-card reveal">
+            <div class="opay-card-head"><span class="opay-logo">O</span><div><strong>OPay Bank Transfer</strong><small>ASTA Africa Technical Boot Camp</small></div><span class="manual-badge">MANUAL PAYMENT</span></div>
+            <div class="opay-amount-label">AMOUNT TO PAY</div><div class="opay-amount">₦5,000 <small>NGN</small></div>
+            <div class="opay-detail"><span>Bank name</span><strong>OPay</strong></div>
+            <div class="opay-detail"><span>Account name</span><strong>Ruth Okwuchukwu Maduagwu</strong></div>
+            <div class="opay-detail"><span>Account number</span><strong class="account-number">7056073043</strong></div>
+            <a class="btn btn-full proof-button" href="https://wa.me/2347056073043?text=Hello%2C%20I%20have%20made%20payment%20for%20ASTA%20Africa%20Technical%20Boot%20Camp.%20Please%20find%20my%20proof%20of%20payment." target="_blank" rel="noopener">Send Proof of Payment on WhatsApp <span>↗</span></a>
+            <p class="opay-footnote">Your participation is not confirmed until the ASTA Africa team verifies your transfer and confirms your registration.</p>
+          </div>
+          <div class="opay-instructions reveal">
+            <div class="eyebrow dark-eyebrow">HOW TO SECURE YOUR PLACE</div><h3>Three simple steps.</h3>
+            <div class="instruction"><span>01</span><div><strong>Make your transfer</strong><p>Transfer exactly ₦5,000 to the OPay account shown. Please confirm the account name before sending.</p></div></div>
+            <div class="instruction"><span>02</span><div><strong>Send your payment proof</strong><p>Tap the WhatsApp button and send your transfer receipt or proof to the registration team.</p></div></div>
+            <div class="instruction"><span>03</span><div><strong>Wait for confirmation</strong><p>The team will check the payment and contact you to confirm your participation and share the next steps.</p></div></div>
+            <div class="payment-safety"><span>◈</span><p><strong>Payment safety:</strong> Never share your OPay PIN, card PIN, password, or one-time password with anyone.</p></div>
+          </div>
         </div>
       </div>
     </section>
@@ -182,7 +172,7 @@
           <details><summary>What will I learn?<span>+</span></summary><p>The exact training topics will be announced by the organisers. The learning module section will be updated when the final agenda is confirmed.</p></details>
           <details><summary>Is the training online or physical?<span>+</span></summary><p>The session is online and will be hosted via Google Meet. Joining instructions will be provided to confirmed participants.</p></details>
           <details><summary>How much does registration cost?<span>+</span></summary><p>The current registration price displayed is ₦5,000 per participant.</p></details>
-          <details><summary>How do I make payment?<span>+</span></summary><p>You can use the secure Paystack checkout when configured, or select manual bank transfer to see the OPay account details. Manual transfers require organiser verification before confirmation.</p></details>
+          <details><summary>How do I make payment?<span>+</span></summary><p>Make a manual transfer to the OPay account displayed in the payment section, then send your proof through WhatsApp. Your place is confirmed after the organiser verifies the transfer.</p></details>
           <details><summary>How can I contact ASTA Africa?<span>+</span></summary><p>Contact the registration team through WhatsApp at +234 705 607 3043.</p></details>
         </div>
       </div>
